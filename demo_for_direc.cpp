@@ -128,6 +128,7 @@ int main( int argc, char** argv )
     double timer=0;
     //Superpixels sp = Superpixels(0,0,spoptions);
     dpdf = opendir(direc);
+    cout << "---->: " << ' ' << direc << dpdf <<endl;
     if (dpdf != NULL){
 
         while (epdf = readdir(dpdf)){
